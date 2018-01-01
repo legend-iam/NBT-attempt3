@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation = "vertical"
+    android:fitsSystemWindows="true"
+    tools:context="pbapps.nbt_attempt3.DisplayLocationActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Select Route:"
+            android:id="@+id/textViewForRouteSpinner"
+            android:paddingTop="10dp"
+            android:textColor="#FFCA28"
+            android:layout_weight="0.4"
+            android:textSize="16sp" />
+
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_weight="0.6"
+            android:layout_height="wrap_content"
+            android:id="@+id/routeSpinner"></Spinner>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/display_button"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="DISPLAY LOCATION"
+        android:textStyle="bold"
+        android:layout_below="@+id/routeSpinner"/>
+
+</LinearLayout>

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="pbapps.nbt_attempt3.AddRouteActivity">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/route_name_textview"
+                android:text="Route Name"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="45dp"
+                android:textSize="20sp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/route_name_edittext"
+                android:inputType="text"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/route_name_textview"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/stop1name"
+                android:text="Stop 1"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="45dp"
+                android:textSize="20sp"
+                android:layout_below="@+id/route_name_edittext"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/stop1nameet"
+                android:inputType="text"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/stop1name"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/stop1x"
+                android:text="X coordinate for Stop 1"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="45dp"
+                android:textSize="20sp"
+                android:layout_below="@+id/stop1nameet"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/stop1xet"
+                android:inputType="text"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/stop1x"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/stop1y"
+                android:text="Y coordinate for Stop 1"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="45dp"
+                android:textSize="20sp"
+                android:layout_below="@+id/stop1xet"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/stop1yet"
+                android:inputType="text"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/stop1y"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/stop2name"
+                android:text="Stop 2"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="45dp"
+                android:textSize="20sp"
+                android:layout_below="@+id/stop1yet"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/stop2nameet"
+                android:inputType="text"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/stop2name"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/stop2x"
+                android:text="X coordinate for Stop 2"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="45dp"
+                android:textSize="20sp"
+                android:layout_below="@+id/stop2nameet"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/stop2xet"
+                android:inputType="text"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/stop2x"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/stop2y"
+                android:text="Y coordinate for Stop 2"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="45dp"
+                android:textSize="20sp"
+                android:layout_below="@+id/stop2xet"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/stop2yet"
+                android:inputType="text"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/stop2y"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/stop3name"
+                android:text="Stop 3"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="45dp"
+                android:textSize="20sp"
+                android:layout_below="@+id/stop2yet"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/stop3nameet"
+                android:inputType="text"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/stop3name"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/stop3x"
+                android:text="X coordinate for Stop 3"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="45dp"
+                android:textSize="20sp"
+                android:layout_below="@+id/stop3nameet"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/stop3xet"
+                android:inputType="text"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/stop3x"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/stop3y"
+                android:text="Y coordinate for Stop 3"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="45dp"
+                android:textSize="20sp"
+                android:layout_below="@+id/stop3xet"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/stop3yet"
+                android:inputType="text"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/stop3y"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add"
+                android:id="@+id/button_add"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="40dp"
+                android:layout_below="@id/stop3yet"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

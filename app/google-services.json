@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "753885026316",
+    "firebase_url": "https://nbt-attempt3.firebaseio.com",
+    "project_id": "nbt-attempt3",
+    "storage_bucket": "nbt-attempt3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:753885026316:android:d0035650f8df5114",
+        "android_client_info": {
+          "package_name": "pbapps.nbt_attempt3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "753885026316-me4gq3q27fuv9l43ncpvkqrq7ssmqtsv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsrsZRrgMW351aBSHKEY8qDgAGq1MpIxs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
